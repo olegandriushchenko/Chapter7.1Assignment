@@ -17,13 +17,22 @@ anand = Salary("Anand", "$120k")
 print("{}".format(anand))
 
 #Exercise 3
-list1 = (4, 30, 2017, 2, 27)
-class Tuple:
-    def __str__(self):
-        return "({} {} {} {} {})".format(list1)
 
-list_1 = Tuple([-2], [-1], [2], [0], [1])
+list1 = (4, 30, 2017, 2, 27)
+class Numbers:
+    """def __init__(self, list1):
+        list1 = (4, 30, 2017, 2, 27)
+        self.list1 = list1"""
+
+    def __str__(self):
+        return "{} {} {} {} {}".format(list1[-2], list1[-1], list1[2], list1[0], list1[1])
+
+
+list_1 = Numbers()
 print("{}".format(list_1))
+
+
+
 
 
 
