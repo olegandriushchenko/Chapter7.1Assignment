@@ -1,7 +1,7 @@
 #First exercise
 user_input = input("add you username and password all in lower case\n")
 print(user_input.lower())
-user_username_and_password = int(user_input)
+user_username_and_password = str(user_input)
 
 #Second exercise
 class Salary:
@@ -20,9 +20,9 @@ print("{}".format(anand))
 list1 = (4, 30, 2017, 2, 27)
 class Tuple:
     def __str__(self):
-        return "({} {} {} {} {})".format()
+        return "({} {} {} {} {})".format(list1)
 
-list_1 = Tuple(list1[-2], list1[-1], list1[2], list1[0], list1[1])
+list_1 = Tuple([-2], [-1], [2], [0], [1])
 print("{}".format(list_1))
 
 
