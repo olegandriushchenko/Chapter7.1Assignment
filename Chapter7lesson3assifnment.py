@@ -42,12 +42,11 @@ class Zoo:
         output = output + "Employees:\n"
         for employee in self.zoo_employees:
             output = output + employee + "\n"
-
+        return ""
 zoo = Zoo()
 zoo.add_animal("Lion")
 zoo.add_animal("Bear")
 zoo.add_animal("Lion")
-
 
 zoo.add_animal()
 zoo.add_animal()
@@ -55,7 +54,7 @@ zoo.add_animal("fox")
 zoo.add_animal("rabbit")
 zoo.add_animal("Elephant")
 
-print(zoo)
+#print(zoo)
 
 zoo.hire_new_employee("Oleg")
 zoo.hire_new_employee("Max")
@@ -67,7 +66,7 @@ print(zoo)
 
 
 #exercise 2
-def compute_patterns(inputs=[], patterns="new pattern"):
+def compute_patterns(inputs = [], patterns = "new pattern"):
     inputs.append(patterns)
     patterns = ["a list based on "] + inputs
     return patterns

@@ -1,7 +1,8 @@
 #First exercise
 user_input = input("add you username and password all in lower case\n")
-print(user_input.lower())
-user_username_and_password = str(user_input)
+while user_input.upper() != "Stop":
+    print(user_input.lower())
+    user_username_and_password = str(user_input)
 
 #Second exercise
 class Salary:
